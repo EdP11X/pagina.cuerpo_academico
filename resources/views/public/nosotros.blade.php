@@ -33,13 +33,13 @@
             </div>
 
             <!-- Vision Section -->
-            <div class="mb-16" data-aos="fade-left" data-aos-duration="1000">
+            <div class="mb-35" data-aos="fade-left" data-aos-duration="1000">
                 <h2 class="text-2xl font-bold mb-6 text-[#003B5C]">Nuestra Visión</h2>
                 <p class="text-gray-700">Ser líderes en el área de Ciencias de la Computación a nivel nacional, basándonos en la actualización de los programas académicos existentes y la creación de nuevos programas de nivel licenciatura y posgrado, fomentando la vinculación con los sectores público, privado y social. Así mismo, promover los valores éticos y morales de alumnos, profesores y trabajadores en todas las actividades, teniendo al alumno como eje central..</p>
             </div>
 
             <!-- History Section -->
-            <div class="mb-16">
+            <div class="mb-35">
                 <h2 class="text-2xl font-bold mb-6 text-[#003B5C]">Nuestra Historia</h2>
                 <div class="space-y-8">
                     <div class="border-l-4 border-[#003B5C] pl-4" data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">
@@ -62,7 +62,7 @@
             </div>
 
             <!-- Areas Section -->
-            <div class="mb-16" data-aos="fade-up" data-aos-duration="1000">
+            <div class="mb-35" data-aos="fade-up" data-aos-duration="1000">
                 <h2 class="text-2xl font-bold mb-6 text-[#003B5C]">Áreas de Investigación</h2>
                 <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
                     <div class="border-t-4 border-[#003B5C] pt-4" data-aos="zoom-in" data-aos-duration="800" data-aos-delay="100">
@@ -74,16 +74,56 @@
                         <p class="text-gray-700">Desarrollo de sistemas seguros y protección de infraestructuras críticas.</p>
                     </div>
                     <div class="border-t-4 border-[#003B5C] pt-4" data-aos="zoom-in" data-aos-duration="800" data-aos-delay="100">
-                        <h3 class="font-bold mb-2">Computación Cuántica</h3>
-                        <p class="text-gray-700">Exploración de algoritmos cuánticos y computación de próxima generación.</p>
+                        <h3 class="font-bold mb-2">Robotica y Hardware</h3>
+                        <p class="text-gray-700">Implementacion de hardware con software para resolucion de problemas tecnologicos.</p>
                     </div>
                 </div>
             </div>
 
             <!-- Team Section -->
             <div>
-                <h2 class="text-2xl font-bold mb-6 text-[#003B5C]">Nuestro Cuerpo Académico</h2>
+                <h2 class="text-2xl font-bold mb-15 text-[#003B5C]">Nuestro Cuerpo Académico</h2>
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                    <div class="text-center" data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">
+                        <img src="{{asset('images/doc.jpg')}}" alt="Dr. Rubin Linares" class="w-24 h-24 rounded-full mx-auto mb-4 object-cover">
+                        <h3 class="font-bold">Dr. Gustavo Trinidad Rubín Linares</h3>
+                        <p class="text-gray-600">Director de Investigación</p>
+                    </div>
+                    <div class="text-center" data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">
+                        <img src="{{asset('images/carmen.jpg')}}" alt="Dra. Maria del Carmen" class="w-24 h-24 rounded-full mx-auto mb-4 object-cover">
+                        <h3 class="font-bold">M. C. María del Carmen Santiago Díaz</h3>
+                        <p class="text-gray-600">Coordinadora Académica</p>
+                    </div>
+                    <div class="text-center" data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">
+                        <img src="{{asset('images/claudia.jpg')}}" alt="Dr. Ing. Morraja" class="w-24 h-24 rounded-full mx-auto mb-4 object-cover">
+                        <h3 class="font-bold">M. C. Ana Claudia Zenteno Vázquez</h3>
+                        <p class="text-gray-600">Investigador Principal</p>
+                    </div>
+                    <div class="text-center" data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">
+                        <img src="{{asset('images/judith.jpg')}}" alt="Ing. Eduardo Ponce" class="w-24 h-24 rounded-full mx-auto mb-4 object-cover">
+                        <h3 class="font-bold">M. C. Judith Pérez Marcial</h3>
+                        <p class="text-gray-600">Líder de Innovación</p>
+                    </div>
+                    <div class="text-center" data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">
+                        <img src="{{asset('images/doc.jpg')}}" alt="Dr. Rubin Linares" class="w-24 h-24 rounded-full mx-auto mb-4 object-cover">
+                        <h3 class="font-bold">Dr. Gustavo Trinidad Rubín Linares</h3>
+                        <p class="text-gray-600">Director de Investigación</p>
+                    </div>
+                    <div class="text-center" data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">
+                        <img src="{{asset('images/carmen.jpg')}}" alt="Dra. Maria del Carmen" class="w-24 h-24 rounded-full mx-auto mb-4 object-cover">
+                        <h3 class="font-bold">M. C. María del Carmen Santiago Díaz</h3>
+                        <p class="text-gray-600">Coordinadora Académica</p>
+                    </div>
+                    <div class="text-center" data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">
+                        <img src="{{asset('images/claudia.jpg')}}" alt="Dr. Ing. Morraja" class="w-24 h-24 rounded-full mx-auto mb-4 object-cover">
+                        <h3 class="font-bold">M. C. Ana Claudia Zenteno Vázquez</h3>
+                        <p class="text-gray-600">Investigador Principal</p>
+                    </div>
+                    <div class="text-center" data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">
+                        <img src="{{asset('images/judith.jpg')}}" alt="Ing. Eduardo Ponce" class="w-24 h-24 rounded-full mx-auto mb-4 object-cover">
+                        <h3 class="font-bold">M. C. Judith Pérez Marcial</h3>
+                        <p class="text-gray-600">Líder de Innovación</p>
+                    </div>
                     <div class="text-center" data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">
                         <img src="{{asset('images/doc.jpg')}}" alt="Dr. Rubin Linares" class="w-24 h-24 rounded-full mx-auto mb-4 object-cover">
                         <h3 class="font-bold">Dr. Gustavo Trinidad Rubín Linares</h3>

@@ -14,6 +14,9 @@
 <div class="bg-[#003B5C]">
     <div class="relative min-h-[40vh] flex items-center">
         <div class="absolute inset-0 bg-[#003B5C]/90"></div>
+        <div class="absolute inset-0">
+            <img src="{{asset('images/CC03.jpg')}}" alt="" class="w-full h-full object-cover opacity-20">
+        </div>
         <div class="container relative mx-auto px-4">
             <div class="text-center" data-aos="fade-up" data-aos-duration="1000">
                 <h1 class="text-4xl font-bold text-white mb-4">Eventos Académicos</h1>

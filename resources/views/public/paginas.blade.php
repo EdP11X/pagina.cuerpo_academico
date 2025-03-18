@@ -24,7 +24,10 @@
             <!-- Resources Grid -->
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6" data-aos="fade-up" data-aos-delay="200">
                 <!-- Resource Card 1 -->
-                <div class="border border-gray-200 rounded p-6 hover:border-[#003B5C] transition-colors" data-aos="fade-up" data-aos-delay="300">
+                <div class="border border-gray-200 rounded p-6 hover:border-[#003B5C] transition-colors hover:scale-105" data-aos="fade-up" data-aos-delay="300">
+                    <div class="absolute inset-0">
+                        <img src="{{asset('images/murales.jpg')}}" alt="" class="w-full h-full object-cover opacity-20">
+                    </div>
                     <div class="text-[#003B5C] mb-4">
                         <i class="fas fa-file-pdf text-3xl"></i>
                     </div>
@@ -34,7 +37,10 @@
                 </div>
 
                 <!-- Resource Card 2 -->
-                <div class="border border-gray-200 rounded p-6 hover:border-[#003B5C] transition-colors" data-aos="fade-up" data-aos-delay="400">
+                <div class="border border-gray-200 rounded p-6 hover:border-[#003B5C] transition-colors hover:scale-105" data-aos="fade-up" data-aos-delay="400">
+                    <div class="absolute inset-0">
+                        <img src="{{asset('images/murales.jpg')}}" alt="" class="w-full h-full object-cover opacity-20">
+                    </div>
                     <div class="text-[#003B5C] mb-4">
                         <i class="fas fa-book text-3xl"></i>
                     </div>
@@ -44,7 +50,49 @@
                 </div>
 
                 <!-- Resource Card 3 -->
-                <div class="border border-gray-200 rounded p-6 hover:border-[#003B5C] transition-colors" data-aos="fade-up" data-aos-delay="500">
+                <div class="border border-gray-200 rounded p-6 hover:border-[#003B5C] transition-colors hover:scale-105" data-aos="fade-up" data-aos-delay="500">
+                    <div class="absolute inset-0">
+                        <img src="{{asset('images/murales.jpg')}}" alt="" class="w-full h-full object-cover opacity-20">
+                    </div>
+                    <div class="text-[#003B5C] mb-4">
+                        <i class="fas fa-video text-3xl"></i>
+                    </div>
+                    <h3 class="text-lg font-semibold mb-2">FCC</h3>
+                    <p class="text-gray-600 mb-4 text-sm">Videos educativos y presentaciones de conferencias.</p>
+                    <a href="https://www.cs.buap.mx/" class="text-[#003B5C] hover:text-[#002B44] text-sm font-medium">Ver más →</a>
+                </div>
+                                
+                <!-- Resource Card 4 -->
+                <div class="border border-gray-200 rounded p-6 hover:border-[#003B5C] transition-colors hover:scale-105" data-aos="fade-up" data-aos-delay="300">
+                    <div class="absolute inset-0">
+                        <img src="{{asset('images/murales.jpg')}}" alt="" class="w-full h-full object-cover opacity-20">
+                    </div>
+                    <div class="text-[#003B5C] mb-4">
+                        <i class="fas fa-file-pdf text-3xl"></i>
+                    </div>
+                    <h3 class="text-lg font-semibold mb-2">CONACIC</h3>
+                    <p class="text-gray-600 mb-4 text-sm">El escenario donde la innovación en Ciencias Computacionales cobra vida..</p>
+                    <a href="https://conacic.siycise.org/" class="text-[#003B5C] hover:text-[#002B44] text-sm font-medium">Ver más →</a>
+                </div>
+
+                <!-- Resource Card 5 -->
+                <div class="border border-gray-200 rounded p-6 hover:border-[#003B5C] transition-colors hover:scale-105" data-aos="fade-up" data-aos-delay="400">
+                    <div class="absolute inset-0">
+                        <img src="{{asset('images/murales.jpg')}}" alt="" class="w-full h-full object-cover opacity-20">
+                    </div>
+                    <div class="text-[#003B5C] mb-4">
+                        <i class="fas fa-book text-3xl"></i>
+                    </div>
+                    <h3 class="text-lg font-semibold mb-2">Academicos FCC</h3>
+                    <p class="text-gray-600 mb-4 text-sm">Todos los profesores e investigadores de tiempo completo de la FCC.</p>
+                    <a href="https://www.cs.buap.mx/CuerposAcademicos.php" class="text-[#003B5C] hover:text-[#002B44] text-sm font-medium">Ver más →</a>
+                </div>
+
+                <!-- Resource Card 6 -->
+                <div class="border border-gray-200 rounded p-6 hover:border-[#003B5C] transition-colors hover:scale-105" data-aos="fade-up" data-aos-delay="500">
+                    <div class="absolute inset-0">
+                        <img src="{{asset('images/murales.jpg')}}" alt="" class="w-full h-full object-cover opacity-20">
+                    </div>
                     <div class="text-[#003B5C] mb-4">
                         <i class="fas fa-video text-3xl"></i>
                     </div>

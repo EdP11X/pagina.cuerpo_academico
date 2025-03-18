@@ -57,7 +57,7 @@
         <h2 class="text-2xl font-bold text-[#003B5C] mb-8 text-center" data-aos="fade-up">Proyectos de Investigación Actuales</h2>
         <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
             <!-- Project 1 -->
-            <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200" data-aos="fade-right">
+            <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:scale-108" data-aos="fade-right">
                 <h3 class="text-xl font-semibold text-[#003B5C] mb-2">Desarrollo de Sistemas Robóticos Autónomos</h3>
                 <p class="text-sm text-gray-500 mb-4">Dr. Trinidad Rubin Linares, Dra. María del Carmen Díaz</p>
                 <p class="text-gray-600 mb-4">Investigación sobre el desarrollo de sistemas robóticos autónomos utilizando técnicas avanzadas de inteligencia artificial y aprendizaje profundo.</p>
@@ -67,7 +67,7 @@
                 </div>
             </div>
             <!-- Project 2 -->
-            <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200" data-aos="fade-left">
+            <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:scale-108" data-aos="fade-left">
                 <h3 class="text-xl font-semibold text-[#003B5C] mb-2">Optimización de Sistemas Embebidos</h3>
                 <p class="text-sm text-gray-500 mb-4">Ing. Morraja, Dr. Trinidad Rubin Linares</p>
                 <p class="text-gray-600 mb-4">Estudio sobre técnicas de optimización para sistemas embebidos en tiempo real, enfocado en aplicaciones IoT y control industrial.</p>
@@ -110,8 +110,8 @@
     <h2 class="text-2xl font-bold text-white mb-4">Colabora con Nosotros</h2>
     <p class="text-gray-300 mb-8">¿Interesado en nuestras investigaciones? Contáctanos para explorar oportunidades de colaboración.</p>
     <div class="flex justify-center gap-4">
-        <a href="{{route('contacto')}}" class="bg-white px-6 py-2 text-sm font-semibold text-[#003B5C]">Contactar</a>
-        <a href="{{route('nosotros')}}" class="text-white text-sm font-semibold">Conocer más →</a>
+        <a href="{{route('contacto')}}" class="bg-white px-6 py-2 text-sm font-semibold text-[#003B5C] hover:scale-105">Contactar</a>
+        <a href="{{route('nosotros')}}" class="text-white text-sm font-semibold hover:scale-105">Conocer más →</a>
     </div>
 </div>
 
